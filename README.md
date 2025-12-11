@@ -1,4 +1,4 @@
-🚀 QuantumBank Analytics
+# 🚀 QuantumBank Analytics
 
 A Python-Driven Banking Data Analysis & Reporting Platform
 
@@ -20,7 +20,7 @@ Visualization charts
 
 Interactive Power BI reporting
 
-⭐ Features
+# ⭐ Features
 🧹 ETL & Data Processing
 
 Clean raw datasets
@@ -140,3 +140,4 @@ Aspiring Data Analyst & Python Developer
 📄 License
 
 MIT License
+
