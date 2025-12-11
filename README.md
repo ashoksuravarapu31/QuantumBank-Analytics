@@ -41,7 +41,7 @@ Loan Amount Patterns
 
 Transaction Trend Over Time
 
-📈 Dashboards
+# 📈 Dashboards
 
 Power BI Interactive Reporting
 
@@ -49,14 +49,15 @@ Visual insights for management
 
 Trend charts & behavior analysis
 
-🧱 Tech Stack
+# 🧱 Tech Stack
 Layer	Technologies
 Data Processing	Python, Pandas, NumPy
 Database	SQLite
 Visualization	Matplotlib, Seaborn
 Reporting	Power BI
 Automation	Python Scripts
-📂 Project Structure
+
+#📂 Project Structure
 QuantumBank-Analytics/
 │
 ├── data/
@@ -87,7 +88,7 @@ QuantumBank-Analytics/
 ├── bank360.sqbpro
 └── README.md
 
-⚙️ Installation
+# ⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/ashoksuravarapu31/QuantumBank-Analytics.git
 
@@ -109,7 +110,7 @@ python scripts/bank360_pipeline.py
 7️⃣ Generate Visuals
 python scripts/bank360_analysis.py
 
-📸 Visualizations
+# 📸 Visualizations
 💳 Credit Card Type Distribution
 
 👥 Customer Age Distribution
@@ -120,7 +121,7 @@ python scripts/bank360_analysis.py
 
 📊 Power BI Interactive Dashboard
 
-File: BANK360_Report.pbix
+# File: BANK360_Report.pbix
 Includes:
 
 Customer Segmentation
@@ -131,13 +132,14 @@ Transaction Patterns
 
 Credit Card Insights
 
-👨‍💻 Developed By
+# 👨‍💻 Developed By
 
 Ashok Suravarapu
 BCA Graduate
 Aspiring Data Analyst & Python Developer
 
-📄 License
+# 📄 License
 
 MIT License
+
 
