@@ -60,6 +60,7 @@ QuantumBank-Analytics/
 └── README.md
 
 
+
 # 📸 Visual Outputs (Python Analytics)
 
 🔹 Credit Card Type Distribution
@@ -81,6 +82,7 @@ QuantumBank-Analytics/
 💰 Loan Insights
 
 # ⚙️ Installation & Running
+
 1️⃣ Install Required Libraries
 pip install pandas numpy matplotlib seaborn sqlite3
 
@@ -99,12 +101,13 @@ python scripts/bank360_main.py
 # 👨‍💻 Developed By
 
 Ashok Suravarapu
-BCA Graduate
-Aspiring Data Analyst & Python Developer
+BCA Graduate | Fresher
+Aspiring Data Analyst / Python Developer
 
-# 📄 License
+# 📜 License
 
 MIT License
+
 
 
 
