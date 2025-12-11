@@ -88,6 +88,7 @@ QuantumBank-Analytics/
 ├── bank360.sqbpro
 └── README.md
 
+
 # ⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/ashoksuravarapu31/QuantumBank-Analytics.git
@@ -141,5 +142,6 @@ Aspiring Data Analyst & Python Developer
 # 📄 License
 
 MIT License
+
 
 
