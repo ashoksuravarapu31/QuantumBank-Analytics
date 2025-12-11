@@ -1,111 +1,153 @@
-📊 Bank360 – End-to-End Banking Data Analytics Project
+)
 
-A complete Banking Data Engineering + Analytics project built using:
+📊 QuantumBank Analytics
 
-Python
+A next-generation banking analytics system built with Python ETL pipelines, SQLite database, visualizations, and Power BI dashboards.
 
-SQLite database
+📘 1. Overview
 
-ETL pipelines
+QuantumBank Analytics transforms raw banking data into actionable insights.
+It includes:
 
-Data Cleaning & Transformation
+ETL pipeline to clean & merge datasets
 
-Matplotlib/Seaborn Visualizations
+Analytics on customers, loans, credit cards, and transactions
 
-Power BI Dashboard
+Visualization charts
 
-This project processes raw banking datasets and converts them into actionable insights with reports & dashboards.
+Power BI dashboard for business reporting
 
-🚀 Features
-🔹 ETL Pipeline (Python)
+⚙️ 2. Features
+🔧 ETL Pipeline
 
-Creates SQLite tables
+Extracts data from CSV & SQLite
 
-Imports CSV datasets
+Cleans and validates datasets
 
-Validates and cleans data
+Generates merged final dataset
 
-Generates transformed final dataset
+Removes duplicates and missing values
 
-🔹 Banking Analytics
+📈 Data Analytics
 
-Customer Age Analysis
+Customer age distribution
 
-Credit Card Distribution
+Credit card type distribution
+
+Loan amount analysis
+
+Transaction trend analysis
+
+📊 Dashboards
+
+Power BI interactive report
+
+Visual insights for management
+
+📁 3. Project Structure
+QuantumBank-Analytics/
+│
+├── data/
+│   ├── bank360.db
+│   ├── customers.csv
+│   ├── loans.csv
+│   ├── credit_cards.csv
+│   ├── transactions.csv
+│   ├── bank360_final_output.csv
+│   ├── full_merged_banking_data.csv
+│   └── full_merged_banking_data_from_sqlite.csv
+│
+├── scripts/
+│   ├── bank360_main.py
+│   ├── bank360_pipeline.py
+│   ├── bank360_analysis.py
+│   ├── sqlite_create_tables.py
+│   ├── sqlite_import_data.py
+│   └── sqlite_verify.py
+│
+├── visuals/
+│   ├── credit_card_type_distribution.png
+│   ├── customer_age_distribution.png
+│   ├── loan_amount_distribution.png
+│   └── transaction_amount_trend.png
+│
+├── BANK360_Report.pbix
+├── bank360.sqbpro
+└── README.md
+
+📚 4. Dataset Details
+customers.csv
+
+Contains customer demographics
+
+Age
+
+Region
+
+Account type
+
+loans.csv
+
+Loan information
+
+Loan type
+
+Amount
+
+Tenure
+
+Status
+
+credit_cards.csv
+
+Credit card usage
+
+Card type
+
+Credit limit
+
+transactions.csv
+
+Transaction records
+
+Amount
+
+Timestamp
+
+▶️ 5. How to Run the Project
+Step 1: Install required packages
+pip install pandas matplotlib seaborn
+
+Step 2: Create SQLite database & tables
+python scripts/sqlite_create_tables.py
+
+Step 3: Import data into SQLite
+python scripts/sqlite_import_data.py
+
+Step 4: Verify imported data
+python scripts/sqlite_verify.py
+
+Step 5: Run ETL Pipeline
+python scripts/bank360_pipeline.py
+
+Step 6: Generate Analytics Charts
+python scripts/bank360_analysis.py
+
+📉 6. Visualizations
+Credit Card Type Distribution
+
+Customer Age Distribution
 
 Loan Amount Distribution
 
 Transaction Trend Over Time
 
-🔹 Dashboards
+📊 7. Power BI Dashboard
 
-Interactive Power BI dashboard for management reporting
+File available at:
 
-Charts for transaction behavior, age groups, loan patterns, etc.
+BANK360_Report.pbix
 
-🧱 Project Structure
-Bank360/
-│── data/
-│     ├── customers.csv
-│     ├── loans.csv
-│     ├── credit_cards.csv
-│     ├── transactions.csv
-│     ├── bank360.db
-│
-│── scripts/
-│     ├── bank360_main.py
-│     ├── bank360_pipeline.py
-│     ├── bank360_analysis.py
-│     ├── sqlite_create_tables.py
-│     ├── sqlite_import_data.py
-│     ├── sqlite_verify.py
-│
-│── visuals/
-│     ├── credit_card_type_distribution.png
-│     ├── customer_age_distribution.png
-│     ├── loan_amount_distribution.png
-│     ├── transaction_amount_trend.png
-│
-│── BANK360_Report.pbix
-│── README.md
-│── .gitattributes
-
-📂 Dataset Overview
-Dataset	Contains
-customers.csv	Customer demographics
-loans.csv	Loan amounts & types
-credit_cards.csv	Credit card types
-transactions.csv	Transaction values & timestamps
-📜 How to Run the Project
-1️⃣ Install packages
-pip install pandas matplotlib seaborn sqlite3
-
-2️⃣ Create Database & Tables
-python scripts/sqlite_create_tables.py
-
-3️⃣ Import Data
-python scripts/sqlite_import_data.py
-
-4️⃣ Run Full ETL Pipeline
-python scripts/bank360_pipeline.py
-
-5️⃣ Generate Visualizations
-python scripts/bank360_analysis.py
-
-📈 Visualizations
-🔹 Credit Card Type Distribution
-
-🔹 Customer Age Distribution
-
-🔹 Loan Amount Distribution
-
-🔹 Transaction Trend Over Time
-
-📊 Power BI Dashboard
-
-The interactive dashboard is available in:
-
-📄 BANK360_Report.pbix
 
 Includes:
 
@@ -113,14 +155,26 @@ Loan analytics
 
 Customer segmentation
 
-Credit card usage
+Transaction patterns
 
-High-value transaction behavior
+Credit card insights
 
-👨‍💻 Developed By
+👨‍💻 8. Developed By
 
 Ashok Suravarapu
-BCA Graduate (Fresher)
-Aspiring Data Analyst / Data Engineer
+BCA Graduate | Aspiring Data Analyst & Python Developer
 
-❤️ Now Your Final Step:
+📄 9. License
+
+MIT License
+Feel free to use and modify.
+
+🎯 10. Future Enhancements (Optional Section)
+
+Automating ETL with Airflow
+
+Live dashboards with Streamlit
+
+ML model for loan risk prediction
+
+✅ This version is clean, professional
