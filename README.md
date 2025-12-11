@@ -1,135 +1,113 @@
 🚀 QuantumBank Analytics
 
-A Python-powered Banking Analytics System for Data Insights & Reporting
+A Python-Driven Banking Data Analysis & Reporting Platform
 
-This project provides end-to-end banking analytics using:
+This project provides end-to-end banking analytics using Python ETL pipelines, SQLite database, and Power BI dashboards for deep financial insights.
 
-Python ETL Pipelines
+The system includes:
 
-SQLite Database
+Automated data cleaning
 
-Data Cleaning & Transformation Scripts
+Dataset merging & transformation
 
-Power BI Interactive Dashboard
+Customer demographics analytics
 
-Visualizations (Matplotlib / Seaborn)
+Loan & credit card insights
 
-The goal is to analyze customer, loan, credit card, and transaction data with accurate reporting and insights.
+Transaction behavior study
+
+Visualization charts
+
+Interactive Power BI reporting
 
 ⭐ Features
 🧹 ETL & Data Processing
 
-Clean raw CSV/SQLite data
+Clean raw datasets
 
-Remove duplicates & handle missing values
+Remove duplicates
 
-Merge datasets for unified analytics
+Standardize fields
 
-Generate final processed datasets
+Merge CSVs into a unified dataset
 
-📊 Banking Analytics
+📊 Analytics Provided
 
-Customer Age Distribution
+Customer Age Analysis
 
 Credit Card Type Distribution
 
-Loan Amount Distribution
+Loan Amount Patterns
 
 Transaction Trend Over Time
 
-📈 Dashboards (Power BI)
+📈 Dashboards
 
-Customer Insights
+Power BI Interactive Reporting
 
-Loan Analysis
+Visual insights for management
 
-Credit Card Usage
-
-Transaction Behavior
-
-🛢️ SQLite Database Operations
-
-Create tables
-
-Import datasets
-
-Validate schema
-
-Run SQL-based reporting
+Trend charts & behavior analysis
 
 🧱 Tech Stack
 Layer	Technologies
 Data Processing	Python, Pandas, NumPy
-Database	SQLite3
+Database	SQLite
 Visualization	Matplotlib, Seaborn
-Dashboard	Power BI
-Scripting	Python ETL Pipelines
+Reporting	Power BI
+Automation	Python Scripts
 📂 Project Structure
 QuantumBank-Analytics/
 │
-├── data/  
-│   ├── bank360.db  
-│   ├── customers.csv  
-│   ├── loans.csv  
-│   ├── credit_cards.csv  
-│   ├── transactions.csv  
-│   ├── bank360_final_output.csv  
-│   ├── full_merged_banking_data.csv  
-│   └── full_merged_banking_data_from_sqlite.csv  
+├── data/
+│   ├── bank360.db
+│   ├── customers.csv
+│   ├── loans.csv
+│   ├── credit_cards.csv
+│   ├── transactions.csv
+│   ├── bank360_final_output.csv
+│   ├── full_merged_banking_data.csv
+│   └── full_merged_banking_data_from_sqlite.csv
 │
-├── scripts/  
-│   ├── bank360_main.py  
-│   ├── bank360_pipeline.py  
-│   ├── bank360_analysis.py  
-│   ├── sqlite_create_tables.py  
-│   ├── sqlite_import_data.py  
-│   └── sqlite_verify.py  
+├── scripts/
+│   ├── bank360_main.py
+│   ├── bank360_pipeline.py
+│   ├── bank360_analysis.py
+│   ├── sqlite_create_tables.py
+│   ├── sqlite_import_data.py
+│   └── sqlite_verify.py
 │
-├── visuals/  
-│   ├── credit_card_type_distribution.png  
-│   ├── customer_age_distribution.png  
-│   ├── loan_amount_distribution.png  
-│   └── transaction_amount_trend.png  
+├── visuals/
+│   ├── credit_card_type_distribution.png
+│   ├── customer_age_distribution.png
+│   ├── loan_amount_distribution.png
+│   └── transaction_amount_trend.png
 │
-├── BANK360_Report.pbix  
-├── bank360.sqbpro  
-└── README.md  
+├── BANK360_Report.pbix
+├── bank360.sqbpro
+└── README.md
 
-⚙️ Installation & Setup
+⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/ashoksuravarapu31/QuantumBank-Analytics.git
 
-2️⃣ Install Python Dependencies
+2️⃣ Install Dependencies
 pip install pandas matplotlib seaborn
 
-3️⃣ Create SQLite Database
+3️⃣ Create Database
 python scripts/sqlite_create_tables.py
 
-4️⃣ Import Data into SQLite
+4️⃣ Import Data
 python scripts/sqlite_import_data.py
 
-5️⃣ Verify Tables
+5️⃣ Verify Database
 python scripts/sqlite_verify.py
 
-6️⃣ Run the ETL Pipeline
+6️⃣ Run Data Pipeline
 python scripts/bank360_pipeline.py
 
-7️⃣ Generate Visualizations
+7️⃣ Generate Visuals
 python scripts/bank360_analysis.py
-
-🎯 Insights Generated
-
-Customer demographics
-
-Spending patterns
-
-Credit card usage type distribution
-
-Age-based segmentation
-
-Loan category analysis
-
-Transaction behavior over time
 
 📸 Visualizations
 💳 Credit Card Type Distribution
@@ -138,27 +116,26 @@ Transaction behavior over time
 
 💰 Loan Amount Distribution
 
-📉 Transaction Amount Trend Over Time
+📉 Transaction Amount Trend
 
-📊 Power BI Dashboard
+📊 Power BI Interactive Dashboard
 
-Contains professional analytical reports including:
+File: BANK360_Report.pbix
+Includes:
 
 Customer Segmentation
 
-Loan Insights
+Loan Performance
 
-Credit Card Trends
+Transaction Patterns
 
-Transaction Behavior Trends
-
-File: BANK360_Report.pbix
+Credit Card Insights
 
 👨‍💻 Developed By
 
 Ashok Suravarapu
 BCA Graduate
-Aspiring Data Analyst / Python Developer
+Aspiring Data Analyst & Python Developer
 
 📄 License
 
