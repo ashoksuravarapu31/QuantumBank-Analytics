@@ -1,4 +1,4 @@
-# 🚀 QuantumBank Analytics
+# BANK360 Analytics
 
 A Modern Banking Analytics System using Python ETL, SQLite, and Power BI.
 
@@ -67,7 +67,7 @@ QuantumBank-Analytics
 
 
 # 📸 Power BI Dashboard Screenshots
-### 🔹 QuantumBank-Analytics Dashboard
+### 🔹 BANK360 Analytics Dashboard
 ![QuantumBank-Analytics](screenshots/05_bank360_master_dashboard.png)
 
 ### 🔹 Transaction Overview Dashboard
@@ -111,6 +111,7 @@ Aspiring Data Analyst / Python Developer
 # 📜 License
 
 MIT License
+
 
 
 
