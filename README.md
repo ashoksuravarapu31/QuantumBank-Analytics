@@ -67,6 +67,8 @@ QuantumBank-Analytics
 
 
 # 📸 Power BI Dashboard Screenshots
+### 🔹 BANK360 – Unified Dashboard
+![QuantumBank-Analytics](screenshots/05_bank360_master_dashboard.png)
 
 ### 🔹 Transaction Overview Dashboard
 ![Transaction Overview](screenshots/01_transaction_overview.png)
@@ -80,8 +82,7 @@ QuantumBank-Analytics
 ### 🔹 Loan Analytics Dashboard
 ![Loan Analytics](screenshots/04_loan_analytics.png)
 
-### 🔹 BANK360 – Unified Dashboard
-![BANK360 Dashboard](screenshots/05_bank360_master_dashboard.png)
+
 
 
 # ⚙️ Installation & Running
@@ -110,6 +111,7 @@ Aspiring Data Analyst / Python Developer
 # 📜 License
 
 MIT License
+
 
 
 
