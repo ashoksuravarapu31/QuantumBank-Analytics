@@ -28,7 +28,7 @@ Power BI dashboards for executive reporting
 # 📂 Project Structure
 📦 QuantumBank-Analytics
 │
-├── 📁 data
+# ├── 📁 data
 │   ├── bank360.db
 │   ├── bank360_final_output.csv
 │   ├── credit_cards.csv
@@ -38,7 +38,7 @@ Power BI dashboards for executive reporting
 │   ├── loans.csv
 │   └── transactions.csv
 │
-├── 📁 scripts
+# ├── 📁 scripts
 │   ├── bank360_analysis.py
 │   ├── bank360_main.py
 │   ├── bank360_pipeline.py
@@ -46,14 +46,14 @@ Power BI dashboards for executive reporting
 │   ├── sqlite_import_data.py
 │   └── sqlite_verify.py
 │
-├── 📁 visuals
+# ├── 📁 visuals
 │   ├── credit_card_type_distribution.png
 │   ├── customer_age_distribution.png
 │   ├── loan_amount_distribution.png
 │   ├── loan_status_count.png
 │   └── transaction_amount_trend_over_time.png
 │
-├── 📊 BANK360_Report.pbix
+# ├── 📊 BANK360_Report.pbix
 ├── 🗄️ bank360.sqbpro
 ├── ⚙️ .gitattributes
 └── 📄 README.md
@@ -107,6 +107,7 @@ Aspiring Data Analyst / Python Developer
 # 📜 License
 
 MIT License
+
 
 
 
