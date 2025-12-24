@@ -26,7 +26,7 @@ Power BI dashboards for executive reporting
 
 
 # 📂 Project Structure
- 📦 QuantumBank-Analytics
+📦 QuantumBank-Analytics
 │
 ├── 📁 data
 │   ├── bank360.db
@@ -57,6 +57,7 @@ Power BI dashboards for executive reporting
 ├── 🗄️ bank360.sqbpro
 ├── ⚙️ .gitattributes
 └── 📄 README.md
+
 
 
 
@@ -106,6 +107,7 @@ Aspiring Data Analyst / Python Developer
 # 📜 License
 
 MIT License
+
 
 
 
