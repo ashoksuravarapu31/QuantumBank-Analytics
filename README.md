@@ -66,25 +66,23 @@ QuantumBank-Analytics
 
 
 
-# 📸 Visual Outputs (Python Analytics)
-
-🔹 Credit Card Type Distribution
-
-🔹 Customer Age Distribution
-
-🔹 Loan Amount Distribution
-
-🔹 Loan Status Count
-
-🔹 Transaction Amount Trend Over Time
-
 # 📸 Power BI Dashboard Screenshots
 
-📊 Overview Dashboard
+### 🔹 Transaction Overview Dashboard
+![Transaction Overview](screenshots/01_transaction_overview.png)
 
-👥 Customer Insights
+### 🔹 Customer Analytics Dashboard
+![Customer Analytics](screenshots/02_customer_analytics.png)
 
-💰 Loan Insights
+### 🔹 Credit Card Insights Dashboard
+![Credit Card Insights](screenshots/03_credit_card_insights.png)
+
+### 🔹 Loan Analytics Dashboard
+![Loan Analytics](screenshots/04_loan_analytics.png)
+
+### 🔹 BANK360 – Unified Dashboard
+![BANK360 Dashboard](screenshots/05_bank360_master_dashboard.png)
+
 
 # ⚙️ Installation & Running
 
@@ -112,6 +110,7 @@ Aspiring Data Analyst / Python Developer
 # 📜 License
 
 MIT License
+
 
 
 
